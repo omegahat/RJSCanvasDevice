@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<link rel="stylesheet" href="../OmegaTech.css">
+<title>@PKG_NAME@</title>
+</head>
+
+<body>
+<h1>@PKG_NAME@</h1>
+<p align=right><a href="@TAR_FILE@">@TAR_FILE@</a> (@DATE@)</p>
+
+This package provides an R graphics device that
+creates plots that can be rendered in a JavaScript canvas
+within a Web browser.
+The graphics device generates JavaScript code to render the
+elements of the plot.
+
+<p>
+The package provides two primary functions and corresponding devices.
+One creates the JavaScript code, the other creates an HTML
+document to display the plots on canvases within the document.
+<p>
+
+Both devices can generate code for multiple "pages" of displays.
+They create a function for each "page".
+These can draw on the same canvas or on different canvases.
+
+<p>
+
+
+<h2>Software</h2>
+
+The source for the package is <a href="@TAR_FILE@">@TAR_FILE@</a>.
+You also need the <a href="../RGraphicsDevice">RGraphicsDevice</a>
+package and the <a href="../RSXML">XML</a> package
+along with any dependencies they have
+
+<h2>Documentation</h2>
+None yet.
+
+
+
+
+<hr>
+<address><a href="http://www.stat.ucdavis.edu/~duncan">Duncan Temple Lang</a>
+<a href=mailto:duncan@wald.ucdavis.edu>&lt;duncan@wald.ucdavis.edu&gt;</a></address>
+<!-- hhmts start -->
+Last modified: Fri Mar 19 06:41:49 PDT 2010
+<!-- hhmts end -->
+</body> </html>

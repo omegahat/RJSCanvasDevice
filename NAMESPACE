@@ -1,0 +1,15 @@
+import(RGraphicsDevice)
+import(XML)
+
+export(jsCanvas, htmlCanvas)
+exportClasses(JavaScriptCanvasDevice)
+# Not yet. export(getCode)
+exportMethods(getCode)
+exportMethods("coerce")
+
+export(writeCode)
+# export(asJSFunction)
+
+export(addJSCode)
+
+

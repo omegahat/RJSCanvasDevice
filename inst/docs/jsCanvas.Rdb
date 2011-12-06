@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<article xmlns:r="http://www.r-project.org"
+         xmlns:xi="http://www.w3.org/2003/XInclude">
+
+<articleinfo>
+
+<title></title>
+
+<author><firstname>Duncan</firstname><surname>Temple Lang</surname>
+  <affiliation><orgname>University of California at Davis</orgname>
+               <orgdiv>Department of Statistics</orgdiv>
+  </affiliation>
+</author>
+</articleinfo>
+
+<section>
+<title></title>
+
+<para>
+This package provides a mechanism for creating graphics
+within R that can be displayed within an HTML page by drawing
+onto a JavaScript canvas.
+</para>
+
+</section>
+
+<section>
+<title>Creating HTML documents</title>
+
+<para>
+If <r:arg>multiCanvas</r:arg> is <r:true/> each plot will be, by
+default, displayed in its own canvas. The <xml:attr>onload</xml:attr>
+attribute will call each of the draw functions.  When we give the R
+plotting commands, the plots are collected.  When we generate the HTML
+document and the JavaScript functions, we ensure that there is a
+canvas per plot.  We create these in the HTML document with the
+relevant id and width and height attributes.
+<comment>
+We may want to create the "pages" as JavaScript plot objects
+with a dimension and a canvas id along with the JavaScript commands/code.
+Done now.
+</comment>
+
+
+
+</para>
+</section>
+</article>

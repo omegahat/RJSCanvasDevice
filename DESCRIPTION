@@ -1,0 +1,18 @@
+Package: RJSCanvasDevice
+Title: An R graphics device that produces JavaScript code to render on the JavaScript canvas in a browser
+Description: This package provides an implementation of an R graphics device
+ that produces JavaScript code to render the plot(s) on a JavaScript canvas
+ within an HTML document displayed in a Web browser.
+ The plots in R are mapped to code that is rendered separately from R
+ when viewed in the browser.
+ The package also provides an even higher-level device that
+ creates the HTML page to render the plot(s).
+Version: 0.1-0
+Depends: methods
+Imports: RGraphicsDevice, XML
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+License: GPL2
+
+
+

@@ -1,0 +1,23 @@
+<topics>
+<items>
+
+<item>
+Ensure removing unused  canvases works for the htmlCanvas.
+</item>
+
+<item>
+Check if the vector of canvasId and/or function names behaves correctly.
+</item>
+
+<item>
+Have the htmlCanvas support writing to different canvases or using
+the last function to draw on the one canvas.
+Check this. Mostly done.
+</item>
+<item>
+Add a scaling vector for the device. Like the FlashMXML
+so that if we change the size of the canvas, the computations
+will adjust.
+</item>
+</items>
+</topics>
